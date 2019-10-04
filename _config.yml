@@ -85,8 +85,8 @@ author:
   bio              : "M.Sc. student of Artificial Intelligence at Sharif University of Technology"
   location         : "Tehran, Iran"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            : "msdkhairi@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "msdkhairi"
+  linkedin         : #"msdkhairi"
   orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
