@@ -9,13 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
-You can download the complete cv [here](https://drive.google.com/open?id=1dlAJoMtj24sIGcCicA1hOvmVlbCH-BEp "Masoud's CV")
-
 Education
 ======
-* M.Sc. in Artificial Intelligence, Sharif University of Technology, 2020
-  * Thesis: Semi Supervised Semantic Segmentation using Generative Adversarial Networks
-* B.Sc. in Computer Engineering, Qazvin Azad University, 2018
+* B.S. in GitHub, GitHub University, 2012
+* M.S. in Jekyll, GitHub University, 2014
+* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 
 Work experience
 ======
