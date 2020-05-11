@@ -17,45 +17,51 @@ Education
   * Thesis: Semi Supervised Semantic Segmentation using Generative Adversarial Networks
 * B.Sc. in Computer Engineering, Qazvin Azad University, 2018
 
-Work experience
+Research Interests
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Machine Learning
+* Deep Learning
+* Computer Vision
+* Image Processing
+* Robotics
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming
+  * Python, C/C++, Java
+* Tools
+  * Tensorflow, Pytorch, Keras
+  * Numpy, OpenCV, Pandas, MATLAB
+* Language
+  * Persian (Native)
+  * English (Full Professional Proficiency)
 
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
   
-Talks
+
+Awards & Honors
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
+* Ranked 21st among more than 26,000 participants in Nation-wide M.Sc. Entrance Exam for Computer Engineering, Sanjesh Organization, Iran
+* Ranked 1st among 43 undergraduate students, Department of Computer Engineering, Qazvin Azad University, Qazvin, Iran
+* Making it up to quarter finals in World Robocup Championship, Standard Platform League (SPL), Nagoya, Japan
+* 2<sup>nd</sup> place of Standard Platform League (SPL), RoboCup Iran Open, Tehran, Iran
+* Recipient of Undergraduate Research Scholarship, Qazvin Azad University, Qazvin, Iran
+
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+* Digital Image Processing. Instructor: Prof. Kasaei
+* Advanced 3D Computer Vision. Instructor: Prof. Kasaei
+* Machine Learning. Instructor: Dr. Rohban
+* Data Structures. Instructor: Dr. Shakeri
+* Discrete Mathematics. Instructor: Dr. Shakeri
+
+References
 ======
-* Currently signed in to 43 different slack teams
+
+
+
