@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can download the complete cv [here](https://drive.google.com/open?id=1dlAJoMtj24sIGcCicA1hOvmVlbCH-BEp "Masoud's CV")
+You can download the complete cv [here](https://msdkhairi.github.io/files/cv.pdf "Masoud's CV")
 
 Education
 ======
