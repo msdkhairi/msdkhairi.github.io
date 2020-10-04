@@ -8,5 +8,5 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Masoud, a M.Sc. student in the Department of Computer Enginnering, Sharif University of Technology. I am currently working under supervision of Prof. Kasaei at Image Processing Laboratoy ([IPL](http://ipl.ce.sharif.edu/ "IPL's Homepage")). My main research is on semantically segment images (mostly indoor images) using Deep Neural Networks. Mainly I am trying to leverage Generative Adversarial Networks (GANs) to improve the accuracy of semantic segmentation.
+Hi, I'm Masoud, an M.Sc. student in Artificial Intelligence at Sharif University of Technology in Tehran, Iran. I am currently working as a research assistant under supervision of Prof. Kasaei at Image Processing Laboratoy ([IPL](http://ipl.ce.sharif.edu/ "IPL's Homepage")). My research interests lie in fields of Computer Vision, Image Processing, Deep Learning, Robotics. To get to know more about me please have a look my [CV](https://msdkhairi.github.io/cv/ "Masoud's CV")
 
