@@ -27,9 +27,9 @@ Education
 
 Publications
 ======
-* **Masoud Khairi Atani**, Fahimeh Fooladgar, and Shohreh Kasaei. "Semi-supervised Semantic Segmentation using Generative Adversarial Networks" [Draft version]
-* Zahra Ghelichkhan, Fahimeh Fooladgar, **Masoud Khairi Atani**, and Shohreh Kasaei. "CPC: Cross-Plus Correlation in RGB-Depth Semantic Segmentation" [Draft version]
-* **Masoud Khairi Atani**, et al. "Team Description for RoboCup 2017." In Robocup 2017, Nagoya, Japan [[Report](https://msdkhairi.github.io/files/MRL_SPL_Team_Description_for_RoboCup_2017.pdf)]
+* **Masoud Khairi Atani**, Fahimeh Fooladgar, and Shohreh Kasaei. "Semi-supervised Semantic Segmentation using Generative Adversarial Networks" (Draft)
+* Zahra Ghelichkhan, Fahimeh Fooladgar, **Masoud Khairi Atani**, and Shohreh Kasaei. "CPC: Cross-Plus Correlation in RGB-Depth Semantic Segmentation" (Draft)
+* **Masoud Khairi Atani**, et al. "Team Description for RoboCup 2017." In Robocup 2017, Nagoya, Japan ([Report](https://msdkhairi.github.io/files/MRL_SPL_Team_Description_for_RoboCup_2017.pdf))
 
 Honors & Awards
 ======
@@ -70,7 +70,3 @@ Skills
 * Language
   * Persian (Native)
   * English (Full Professional Proficiency)
-
-References
-======
-* Available upon request.
