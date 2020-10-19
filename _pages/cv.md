@@ -47,8 +47,7 @@ Research Experience
 
 Work Experience
 ======
-* **Machine Learning Engineer**, Interpretable Machine Learning Lab.
-    * Department of Computer Engineering, Sharif University of Technology
+* **Machine Learning Engineer**, MCI (Hamrahe Aval) R&D Center, Tehran, Iran.
 
 Teaching Experience
 ======
