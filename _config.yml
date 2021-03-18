@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Home"
 title_separator          : "-"
 name                     : &name "Masoud Khairi Atani"
-description              : &description "personal description"
+description              : &description "masoud's personal webpage"
 url                      : https://msdkhairi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "msdkhairi/msdkhairi.github.io"
@@ -88,7 +88,7 @@ author:
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            : "msdkhairi@gmail.com"
-  researchgate     :  "https://www.researchgate.net/profile/Masoud_Khairi"
+  researchgate     : #"https://www.researchgate.net/profile/Masoud-Khairi-Atani"
   uri              :
   bitbucket        :
   codepen          :
