@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : "Home"
 title_separator          : "-"
-name                     : &name "Masoud Khairi"
-description              : &description "personal description"
+name                     : &name "Masoud Khairi Atani"
+description              : &description "masoud's personal webpage"
 url                      : https://msdkhairi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "msdkhairi/msdkhairi.github.io"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Masoud Khairi"
+  name             : "Masoud Khairi Atani"
   avatar           : "profile.png"
   bio              : "M.Sc. student in Artificial Intelligence at Sharif University of Technology"
   location         : "Tehran, Iran"
@@ -88,7 +88,7 @@ author:
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            : "msdkhairi@gmail.com"
-  researchgate     :  "https://www.researchgate.net/profile/Masoud_Khairi"
+  researchgate     : #"https://www.researchgate.net/profile/Masoud-Khairi-Atani"
   uri              :
   bitbucket        :
   codepen          :
