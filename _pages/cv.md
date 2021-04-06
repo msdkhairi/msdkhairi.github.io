@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-The complete pdf version of CV can be found [here](https://msdkhairi.github.io/files/Masoud_Khairi_CV.pdf "Masoud's CV")
+The complete pdf version of CV can be found [here](https://msdkhairi.github.io/files/cv.pdf "Masoud's CV")
 
 Research Interests
 ======
