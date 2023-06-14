@@ -5,14 +5,11 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Profile</div>
+    <div class="text-3xl w-full font-bold">Summary</div>
   </div>
 
   <div class="mb-10 text-justify">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    Highly-motivated and innovative machine learning and data science enthusiast with a strong desire to apply cutting-edge techniques to solve complex problems.
   </div>
 
   <div class="mb-5">
@@ -21,13 +18,20 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <div class="time-line-container grid gap-4 mb-10">
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
-    />
+      title="Master of Science in Artificial Intelligence & Robotics"
+      subtitle="2018 to 2021 at Sharif University of Technology, Tehran, Iran"
+    >
+    Thesis: Semi-Supervised Image Semantic Segmentation using Adversarial Networks
+    </TimeLineElement>
     <TimeLineElement
+      title="Bachelor of Science in Computer Engineering"
+      subtitle="2014 to 2018 at Qazvin Azad University, Tehran, Iran"
+    >
+    </TimeLineElement>
+    <!-- <TimeLineElement
       title="Title Name"
       subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
-    />
+    /> -->
   </div>
 
   <div class="mb-5">
@@ -36,26 +40,41 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <div class="time-line-container mb-10">
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Machine Learning Engineer"
+      subtitle="From 2021 to 2022 at MCI (Hamrahe-aval) R&D Center, Tehran, Iran"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+    <ul class="list-disc mx-6 mb-10 grid gap-2">
+      <li>
+        Project: Create an easy-to-use and scalable AI platform for developing and deploying ML pipelines. 
+      </li>
+      <li>
+        Contribution: Development, implementation, and deployment of distributed Machine Learning and Deep Learning models.
+      </li>
+      <li>
+        Technologies: Tensorflow, Pytorch, OpenCV, Pandas, Kubernetes, Kubeflow, Docker
+      </li>
+    </ul>
     </TimeLineElement>
+
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Research Assistant"
+      subtitle="From 2018 to 2021 at Image Processing Lab (SUT), Tehran, Iran"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-    </TimeLineElement>
-    <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+    <ul class="list-disc mx-6 mb-10 grid gap-2">
+      <li>
+        Investigated and enhanced utilization of Adversarial Networks in Image Segmentation
+      </li>
+      <li>
+        Research on Transformers in Deep Learning and Computer Vision.
+      </li>
+      <li>
+        Technologies: Pytorch, OpenCV, PIL, scikit-learn, Matplotlib
+      </li>
+    </ul>
     </TimeLineElement>
   </div>
 
-  <div class="mb-5">
+  <!-- <div class="mb-5">
     <div class="text-3xl w-full font-bold">Certifications</div>
   </div>
 
@@ -66,7 +85,7 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     <li>
       <a href="#" target="_blank"> Certification Name (with link)</a>
     </li>
-  </ul>
+  </ul> -->
 
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Skills</div>
