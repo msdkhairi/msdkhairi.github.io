@@ -14,18 +14,22 @@ const { image, title = SITE_TITLE, description = SITE_DESCRIPTION, includeSideba
 <html lang="en">
   <head>
     <script is:inline>
-      // This script prevent the FART effect.
-      if (localStorage.getItem("theme") === null) {
-        document.documentElement.setAttribute("data-theme", "light");
-      } else
-      document.documentElement.setAttribute("data-theme",localStorage.getItem("theme"));
-      // "theme" LocalStorage value is set by the package to remember user preference.
-      // The value is checked and applyed before rendering anything.
-  </script>
-  <script>
-      import { themeChange } from "theme-change";
-      themeChange();
-       // you could import the CDN directly instead of these two lines
+      const theme = (() => {
+        if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
+          return localStorage.getItem("theme");
+        }
+        if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+          return "dark";
+        }
+        return "light";
+      })();
+    
+      if (theme === "light") {
+        document.documentElement.classList.remove("dark");
+      } else {
+        document.documentElement.classList.add("dark");
+      }
+      window.localStorage.setItem("theme", theme);
     </script>
     <BaseHead title={title} description={description} image={image} />
   </head>
