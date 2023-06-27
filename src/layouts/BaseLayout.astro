@@ -25,11 +25,11 @@ const { image, title = SITE_TITLE, description = SITE_DESCRIPTION, includeSideba
       })();
     
       if (theme === LIGHT_THEME) {
-        // document.documentElement.classList.remove("dark");
         document.documentElement.setAttribute("data-theme", LIGHT_THEME);
+        window.localStorage.setItem("theme", "light");
       } else {
-        // document.documentElement.classList.add("dark");
         document.documentElement.setAttribute("data-theme", DARK_THEME);
+        window.localStorage.setItem("theme", "dark");
       }
       window.localStorage.setItem("theme", theme);
     </script>
