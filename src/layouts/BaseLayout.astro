@@ -21,10 +21,10 @@ const { image, title = SITE_TITLE, description = SITE_DESCRIPTION, includeSideba
         if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
           return "dark";
         }
-        return "light";
+        return "cmyk";
       })();
     
-      if (theme === "light") {
+      if (theme === "cmyk") {
         document.documentElement.classList.remove("dark");
       } else {
         document.documentElement.classList.add("dark");
