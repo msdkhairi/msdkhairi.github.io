@@ -19,19 +19,19 @@ const { image, title = SITE_TITLE, description = SITE_DESCRIPTION, includeSideba
           return localStorage.getItem("theme");
         }
         if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-          return DARK_THEME;
+          return "dark";
         }
-        return LIGHT_THEME;
+        return "light";
       })();
     
-      if (theme === LIGHT_THEME) {
+      if (theme === "light") {
         document.documentElement.setAttribute("data-theme", LIGHT_THEME);
         window.localStorage.setItem("theme", "light");
       } else {
         document.documentElement.setAttribute("data-theme", DARK_THEME);
         window.localStorage.setItem("theme", "dark");
       }
-      window.localStorage.setItem("theme", theme);
+      // window.localStorage.setItem("theme", theme);
     </script>
     <BaseHead title={title} description={description} image={image} />
   </head>
