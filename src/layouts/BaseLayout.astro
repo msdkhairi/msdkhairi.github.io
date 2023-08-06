@@ -26,12 +26,12 @@ const { image, title = SITE_TITLE, description = SITE_DESCRIPTION, includeSideba
     
       if (theme === "light") {
         document.documentElement.setAttribute("data-theme", LIGHT_THEME);
-        window.localStorage.setItem("theme", "light");
+        // window.localStorage.setItem("theme", "light");
       } else {
         document.documentElement.setAttribute("data-theme", DARK_THEME);
-        window.localStorage.setItem("theme", "dark");
+        // window.localStorage.setItem("theme", "dark");
       }
-      // window.localStorage.setItem("theme", theme);
+      window.localStorage.setItem("theme", theme);
     </script>
     <BaseHead title={title} description={description} image={image} />
   </head>
