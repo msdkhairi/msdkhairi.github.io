@@ -1,15 +1,15 @@
 ---
-const today = new Date();
+import {format} from 'date-fns';
+
+const today: Date = new Date();
+const todayFormatted = format(today, 'MMMM dd, yyyy');
 ---
 
 <footer class="footer footer-center block mb-5 pt-10">
   <div class="pb-2">
-    &copy; {today.getFullYear()} Masoud Khairi Atani
+    <!-- &copy; {today.getFullYear()} Masoud Khairi Atani -->
+    Last updated: { todayFormatted }
   </div>
-  <!-- <div class="inline opacity-75">
-    <a href="https://astrofy-template.netlify.app/" target="_blank" class="font-bold">Astrofy Template</a> developed by
-    <a href="https://manuelernestog.github.io" target="_blank" class="font-bold">Manuel Ernesto ⚡️</a>
-  </div> -->
 </footer>
 <style>
 
