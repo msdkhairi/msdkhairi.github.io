@@ -1,0 +1,51 @@
+---
+const { title, img, desc, url, badge, tags, target, externalLink = "_blank" } = Astro.props;
+import { Image } from "@astrojs/image/components";
+---
+
+<div
+  class="rounded-lg bg-base-100 hover:shadow-xl transition ease-in-out hover:scale-[108%]"
+>
+  <a href={url} target={target}>
+    <div class="hero-content flex-col md:flex-row">
+      {
+        img && (
+          <Image
+            src={img}
+            aspectRatio="16:9"
+            width={750}
+            format="webp"
+            alt={title}
+            class="max-w-full md:max-w-[13rem] rounded-lg"
+          />
+        )
+      }
+      <div class="grow w-full">
+        <!-- <h1 class="text-xl font-bold"> -->
+        <h1 class="text-xl font-bold flex items-center">
+          {externalLink && <svg
+            class="inline-block mr-2"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 30 30"
+            style="fill: currentColor;transform: ;msFilter:;"
+                ><path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8.5 7A8.5 8.5 0 108.5 24 8.5 8.5 0 108.5 7zM22 8A4 7.5 0 1022 23 4 7.5 0 1022 8zM28.5 9A1.5 6.5 0 1028.5 22 1.5 6.5 0 1028.5 9z"
+                ></path>
+            </svg>} {title} 
+          {badge && <div class="badge badge-secondary mx-2">{badge}</div>}
+        </h1>
+        <p class="py-1 text-1xl">{desc}</p>
+        <div class="card-actions justify-end">
+          {
+            tags &&
+              tags.map((tag) => <div class="badge badge-outline">{tag}</div>)
+          }
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
