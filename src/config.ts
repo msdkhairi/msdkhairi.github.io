@@ -3,5 +3,5 @@
 
 export const SITE_TITLE = 'Homepage | Masoud Khairi Atani';
 export const SITE_DESCRIPTION = 'This is personal Website of Masoud Khairi Atani. My resume and contact info can be found here.';
-export const LIGHT_THEME = "cmyk"
+export const LIGHT_THEME = "corporate"
 export const DARK_THEME = "dark"
