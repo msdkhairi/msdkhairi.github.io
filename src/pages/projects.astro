@@ -5,25 +5,52 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
 <BaseLayout title = "Projects" sideBarActiveItemID="projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5">Projects</div>
   </div>
-
-  <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  
+  <!-- <HorizontalCard
+    title="Stock Analysis"
+    img="/images/stock_analysis.png"
+    desc="Analyzing stock data using python and machine learning"
     url="#"
-    badge="NEW"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
+    badge="in progress"
+    github_url="https://github.com/msdkhairi/stock-analysis"
+  /> -->
+  <!-- <div class="divider my-0"></div> -->
 
-  <div>
+  <!-- <HorizontalCard
+  title="Math2latex"
+  img="/post_img.webp"
+  desc="Converting math equations to latex code using transformers"
+  url="#"
+  badge="live demo"
+  github_url="https://github.com/msdkhairi/math2latex"
+  website_url="https://huggingface.co/"
+/>
+
+<div class="divider my-0"></div> -->
+
+<HorizontalCard
+title="SVM-IPM"
+img="/images/svm_margin.png"
+desc="Implementation of Soft margin Support Vector Machines (SVM) using Interior Point Methods: 1)Barrier method and 2)Primal-Dual method"
+url="#"
+blog_url="https://medium.com/@msdkhairi/svm-using-interior-point-methods-1fd0dd41aa84"
+github_url="https://github.com/msdkhairi/svm-ipm"
+/>
+<div class="divider my-0"></div>
+
+<HorizontalCard
+title="OpanAI-Cartpole"
+img="/images/openai_cartpole.png"
+desc="Solving OpenAI Cartpole problem using Q-Learning and Deep Q-Networks"
+url="#"
+blog_url="https://medium.com/@msdkhairi/openai-cartpole-with-policy-gradient-acc0344f5d72"
+github_url="https://github.com/msdkhairi/gym-cartpole-openai"
+/>
+<div class="divider my-0"></div>
+
+  <!-- <div>
     <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
   </div>
 
@@ -47,5 +74,5 @@ import HorizontalCard from "../components/HorizontalCard.astro";
     img="/post_img.webp"
     desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     url="#"
-  />
+  /> -->
 </BaseLayout>
