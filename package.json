@@ -22,7 +22,7 @@
     "date-fns": "^2.30.0",
     "dayjs": "^1.11.8",
     "preact": "^10.15.1",
-    "sharp": "^0.32.1",
+    "sharp": "^0.32.6",
     "theme-change": "^2.5.0"
   },
   "devDependencies": {
