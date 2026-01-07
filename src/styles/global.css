@@ -49,3 +49,13 @@
 [data-theme="dark"] .education__line {
   background-color: #6b8afb;
 }
+
+/* Sidebar menu active state styling */
+.menu li a.active-menu-item {
+  background-color: oklch(0.95 0.01 250);
+  font-weight: 500;
+}
+
+[data-theme="dark"] .menu li a.active-menu-item {
+  background-color: oklch(0.35 0.02 250);
+}

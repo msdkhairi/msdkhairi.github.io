@@ -1,14 +1,14 @@
 ---
 const { sideBarActiveItemID } = Astro.props;
-const activeClass = "bg-base-300"; // For primary color replace with `active` class
+const activeClass = "active-menu-item";
 ---
 
-<ul class="menu grow shrink menu-md overflow-y-auto">
-    <li><a class="py-3 text-base" id="home" href="/"> 
+<ul class="menu grow shrink menu-md overflow-y-auto px-2 gap-1">
+    <li><a class="py-2.5 px-4 text-base rounded-lg" id="home" href="/"> 
     <svg 
         xmlns="http://www.w3.org/2000/svg" 
-        width="24" 
-        height="24" 
+        width="22" 
+        height="22" 
         viewBox="0 0 24 24" 
         style="fill: currentColor;transform: ;msFilter:;">
         <path 
@@ -18,11 +18,11 @@ const activeClass = "bg-base-300"; // For primary color replace with `active` cl
     </svg>
         Home</a></li>
 
-    <li><a class="py-3 text-base" id="projects" href="/projects"> 
+    <li><a class="py-2.5 px-4 text-base rounded-lg" id="projects" href="/projects"> 
         <svg 
         xmlns="http://www.w3.org/2000/svg" 
-        width="24" 
-        height="24" 
+        width="22" 
+        height="22" 
         viewBox="0 0 24 24" 
         style="fill: currentColor;transform: ;msFilter:;">
         <path 
@@ -46,11 +46,11 @@ const activeClass = "bg-base-300"; // For primary color replace with `active` cl
             </svg>
             Blog</a></li> -->
 
-    <li><a class="py-3 text-base" id="cv" href="/cv"> 
+    <li><a class="py-2.5 px-4 text-base rounded-lg" id="cv" href="/cv"> 
         <svg 
         xmlns="http://www.w3.org/2000/svg" 
-        width="24" 
-        height="24" 
+        width="22" 
+        height="22" 
         viewBox="0 0 24 24" 
         style="fill: currentColor;transform: ;msFilter:;">
         <path 
