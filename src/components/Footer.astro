@@ -1,9 +1,8 @@
 ---
-import {format} from 'date-fns';
+import dayjs from 'dayjs';
 
-const today: Date = new Date();
-// const todayFormatted = format(today, 'MMMM dd, yyyy');
-const todayFormatted = format(today, 'MMMM yyyy');
+const today = dayjs();
+const todayFormatted = today.format('MMMM YYYY');
 ---
 
 <footer class="footer footer-center block mb-5 pt-10">

@@ -4,35 +4,30 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import SideBar from "../components/SideBar.astro";
 
-import { LIGHT_THEME, DARK_THEME, SITE_TITLE, SITE_DESCRIPTION } from "../config";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
 
 const { image, title = SITE_TITLE, description = SITE_DESCRIPTION, includeSidebar = true, sideBarActiveItemID } = Astro.props;
 ---
 
 <!DOCTYPE html>
-<!-- <html lang="en" data-theme="light"> -->
-<html lang="en">
+<html lang="en" data-theme="corporate">
   <head>
-    <!-- <script is:inline>
-      const theme = (() => {
-        if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
-          return localStorage.getItem("theme");
-        }
-        if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-          return "dark";
-        }
-        return "light";
+    <script is:inline>
+      (function() {
+        try {
+          // Always check system preference first, don't rely on localStorage
+          var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+          var theme = prefersDark ? "dark" : "light";
+          
+          document.documentElement.setAttribute("data-theme", theme === "dark" ? "dark" : "corporate");
+          
+          // Listen for system theme changes
+          window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function(e) {
+            document.documentElement.setAttribute("data-theme", e.matches ? "dark" : "corporate");
+          });
+        } catch(e) {}
       })();
-    
-      if (theme === "light") {
-        document.documentElement.setAttribute("data-theme", LIGHT_THEME);
-        window.localStorage.setItem("theme", "light");
-      } else {
-        document.documentElement.setAttribute("data-theme", DARK_THEME);
-        window.localStorage.setItem("theme", "dark");
-      }
-      window.localStorage.setItem("theme", theme);
-    </script> -->
+    </script>
     <BaseHead title={title} description={description} image={image} />
   </head>
   <body>
