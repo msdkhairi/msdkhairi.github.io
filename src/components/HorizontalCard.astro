@@ -1,6 +1,21 @@
 ---
-const { title, img, desc, url, github_url, blog_url, website_url, badge, tags, target = "_blank" } = Astro.props;
 import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+
+interface Props {
+  title: string;
+  img?: ImageMetadata | string;
+  desc: string;
+  url?: string;
+  github_url?: string;
+  blog_url?: string;
+  website_url?: string;
+  badge?: string;
+  tags?: string[];
+  target?: string;
+}
+
+const { title, img, desc, url, github_url, blog_url, website_url, badge, tags, target = "_blank" } = Astro.props;
 ---
 
 <!-- <div

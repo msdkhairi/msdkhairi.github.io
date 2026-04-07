@@ -1,6 +1,12 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
+import universalFeatureImg from "../assets/images/universal_feature_project.webp";
+import compressionImg from "../assets/images/compression_for_machines.png";
+import math2latexImg from "../assets/images/math2latex_project.jpeg";
+import drClassificationImg from "../assets/images/dr_classification_faisal.png";
+import svmMarginImg from "../assets/images/svm_margin.png";
+import openaiCartpoleImg from "../assets/images/openai_cartpole.png";
 ---
 
 <BaseLayout title = "Projects" sideBarActiveItemID="projects">
@@ -9,7 +15,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
   
   <HorizontalCard
     title="Universal Feature Representation"
-    img="/images/universal_feature_project.webp"
+    img={universalFeatureImg}
     desc="Universal compressed image features optimized for multi-task neural networks"
     url="#"
     />
@@ -18,7 +24,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
   <HorizontalCard
     title="Compression for Machines"
-    img="/images/compression_for_machines.png"
+    img={compressionImg}
     desc="Framework for Compression for machines for vision tasks: Object Detection, Semantic Segmentation, Classificaiton (Supervisor: Dr. Ivan Bajić)"
     url="#"
     />
@@ -40,7 +46,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
   <HorizontalCard
   title="Math2latex"
-  img="/images/math2latex_project.jpeg"
+  img={math2latexImg}
   desc="Converting math equations to latex code using vision transformers"
   url="#"
   github_url="https://github.com/msdkhairi/math2latex"
@@ -50,7 +56,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
 <HorizontalCard
     title="Diabetes Retinopathy Classification"
-    img="/images/dr_classification_faisal.png"
+    img={drClassificationImg}
     desc="Diabetes Retinopathy detection and classification using OCT and Fundus"ß
     url="#"
     />
@@ -58,7 +64,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
 <HorizontalCard
 title="SVM-IPM"
-img="/images/svm_margin.png"
+img={svmMarginImg}
 desc="Implementation of Soft margin Support Vector Machines (SVM) using Interior Point Methods: 1)Barrier method and 2)Primal-Dual method"
 url="#"
 blog_url="https://medium.com/@msdkhairi/svm-using-interior-point-methods-1fd0dd41aa84"
@@ -68,7 +74,7 @@ github_url="https://github.com/msdkhairi/svm-ipm"
 
 <HorizontalCard
 title="OpenAI-Cartpole"
-img="/images/openai_cartpole.png"
+img={openaiCartpoleImg}
 desc="Solving OpenAI Cartpole problem using Q-Learning and Deep Q-Networks"
 url="#"
 blog_url="https://medium.com/@msdkhairi/openai-cartpole-with-policy-gradient-acc0344f5d72"
